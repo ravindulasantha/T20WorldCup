@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cricketapp.t20worldcup">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.T20WorldCup">
+        <activity android:name=".cric_quiz_result_activity"></activity>
+        <activity android:name=".cric_quiz_activity" />
+        <activity android:name=".community_activity" />
+        <activity android:name=".ranking_activity" />
+        <activity android:name=".pointable_activity" />
+        <activity android:name=".venus_activity" />
+        <activity android:name=".winners" />
+        <activity android:name=".highlights_activity" />
+        <activity android:name=".live_activity" />
+        <activity android:name=".history_activity" />
+        <activity android:name=".squard_activity" />
+        <activity android:name=".schedule_activity" />
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
